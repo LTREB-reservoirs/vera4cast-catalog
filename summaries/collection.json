@@ -27,12 +27,6 @@
       "title": "Chemical"
     },
     {
-      "rel": "child",
-      "type": "application/json",
-      "href": "noaa_forecasts/collection.json",
-      "title": "noaa_forecasts"
-    },
-    {
       "rel": "parent",
       "type": "application/json",
       "href": "../catalog.json"
@@ -59,8 +53,8 @@
     },
     {
       "rel": "describedby",
-      "href": {},
-      "title": {},
+      "href": "https://www.ltreb-reservoirs.org/vera4cast/",
+      "title": "Virginia Ecoforecast Reservoir Analysis Forecasting Challenge",
       "type": "text/html"
     }
   ],
@@ -93,7 +87,7 @@
     },
     {
       "name": "datetime",
-      "type": "timestamp[us]",
+      "type": "date32[day]",
       "description": "datetime of the forecasted value (ISO 8601)"
     },
     {

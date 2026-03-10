@@ -53,8 +53,8 @@
     },
     {
       "rel": "describedby",
-      "href": {},
-      "title": {},
+      "href": "https://www.ltreb-reservoirs.org/vera4cast/",
+      "title": "Virginia Ecoforecast Reservoir Analysis Forecasting Challenge",
       "type": "text/html"
     }
   ],

@@ -26,6 +26,11 @@
       "href": "Daily_Chlorophyll-a/collection.json"
     },
     {
+      "rel": "child",
+      "type": "application/json",
+      "href": "Daily_Bloom_binary/collection.json"
+    },
+    {
       "rel": "parent",
       "type": "application/json",
       "href": "../collection.json"
@@ -68,7 +73,7 @@
       "interval": [
         [
           "2023-10-01T00:00:00Z",
-          "2026-01-22T00:00:00Z"
+          "2026-04-14T00:00:00Z"
         ]
       ]
     }
@@ -86,7 +91,7 @@
     },
     {
       "name": "datetime",
-      "type": "timestamp[us]",
+      "type": "date32[day]",
       "description": "datetime of the forecasted value (ISO 8601)"
     },
     {

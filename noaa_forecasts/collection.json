@@ -9,6 +9,36 @@
   "type": "Collection",
   "links": [
     {
+      "rel": "child",
+      "type": "application/json",
+      "href": "Pseudo/collection.json",
+      "title": "Pseudo"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "href": "Stage1-stats/collection.json",
+      "title": "Stage1-stats"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "href": "Stage1/collection.json",
+      "title": "Stage1"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "href": "Stage2/collection.json",
+      "title": "Stage2"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "href": "Stage3/collection.json",
+      "title": "Stage3"
+    },
+    {
       "rel": "parent",
       "type": "application/json",
       "href": "../catalog.json"
@@ -35,8 +65,8 @@
     },
     {
       "rel": "describedby",
-      "href": {},
-      "title": {},
+      "href": "https://www.ltreb-reservoirs.org/vera4cast/",
+      "title": "Virginia Ecoforecast Reservoir Analysis Forecasting Challenge",
       "type": "text/html"
     }
   ],
@@ -51,7 +81,7 @@
       "interval": [
         [
           "2020-01-01T00:00:00Z",
-          "2025-12-18T00:00:00Z"
+          "2026-03-10T00:00:00Z"
         ]
       ]
     }

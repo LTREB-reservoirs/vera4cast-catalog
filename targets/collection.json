@@ -27,7 +27,7 @@
     },
     {
       "rel": "cite-as",
-      "href": "10.1002/fee.2616"
+      "href": "https://doi.org/10.1002/fee.2616"
     },
     {
       "rel": "about",
@@ -58,7 +58,7 @@
       "interval": [
         [
           "2013-03-07T00:00:00Z",
-          "2025-12-17T00:00:00Z"
+          "2026-03-09T00:00:00Z"
         ]
       ]
     }
@@ -135,15 +135,6 @@
         "data"
       ],
       "description": "This R code will return results for the relevant targets file.\n\n### R\n\n```{r}\n# Use code below\n\nurl <- \"https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/targets/project_id=vera4cast/duration=P1D/daily-insitu-targets.csv.gz\"\ntargets <- readr::read_csv(url, show_col_types = FALSE)\n```"
-    },
-    "5": {
-      "href": ["Pseudo", "Stage1-stats", "Stage1", "Stage2", "Stage3"],
-      "type": "application/x-parquet",
-      "title": "noaa_forecasts Target Access",
-      "roles": [
-        "data"
-      ],
-      "description": "This R code will return results for the relevant targets file.\n\n### R\n\n```{r}\n# Use code below\n\nurl <- \"\"\ntargets <- readr::read_csv(url, show_col_types = FALSE)\n```"
     }
   }
 }
