@@ -4,24 +4,24 @@
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
   "type": "Feature",
-  "id": "tmwb_inflow_DO_mgL_mean_P1D_summaries",
-  "bbox": [-79.8159, 37.3129, -79.8159, 37.3129],
+  "id": "llm.gemini2.5flash.ccc_Temp_C_mean_P1D_summaries",
+  "bbox": [-79.8372, 37.3032, -79.8372, 37.3032],
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-79.8159, 37.3129]
+      [-79.8372, 37.3032]
     ]
   },
   "properties": {
-    "title": "tmwb_inflow",
-    "description": "All summaries for the Daily_oxygen_concentration variable for the tmwb_inflow model. Information for the model is provided as follows: This model uses computations of water-balance components of the hydrologic cycle to predict inflow discharge and inflow temperature.\n                                    The model predicts this variable at the following sites: bvre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "title": "llm.gemini2.5flash.ccc",
+    "description": "All summaries for the Daily_Water_temperature variable for the llm.gemini2.5flash.ccc model. Information for the model is provided as follows: This model uses the Gemini2.5 AI Agent to provide water quality predictions via LLM prompts.\n                                    The model predicts this variable at the following sites: fcre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2026-03-13T00:00:00Z",
     "updated": "2026-03-13T00:00:00Z",
     "start_datetime": "2026-04-16T00:00:00Z",
     "end_datetime": "2026-04-16T00:00:00Z",
     "providers": [
       {
-        "url": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/inflow_tmwb/tmwb_inflow.R",
+        "url": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/LLM_temperature/LLM_temp.R",
         "name": "Austin Delany",
         "roles": [
           "producer",
@@ -41,13 +41,13 @@
     "keywords": [
       "Summaries",
       "vera4cast",
-      "Chemical",
-      "tmwb_inflow",
-      "oxygen_concentration",
-      "DO_mgL_mean",
+      "Physical",
+      "llm.gemini2.5flash.ccc",
+      "Water_temperature",
+      "Temp_C_mean",
       "Daily",
       "P1D",
-      "bvre"
+      "fcre"
     ],
     "table:columns": [
       {
@@ -138,7 +138,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tmwb_inflow"
+      "title": "llm.gemini2.5flash.ccc"
     },
     {
       "rel": "root",
@@ -150,29 +150,29 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tmwb_inflow"
+      "title": "llm.gemini2.5flash.ccc"
     },
     {
       "rel": "self",
-      "href": "tmwb_inflow.json",
+      "href": "llm.gemini2.5flash.ccc.json",
       "type": "application/json",
       "title": "Model Forecast"
     },
     {
       "rel": "item",
-      "href": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/inflow_tmwb/tmwb_inflow.R",
+      "href": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/LLM_temperature/LLM_temp.R",
       "type": "text/html",
       "title": "Link for Model Code"
     },
     {
       "rel": "item",
-      "href": "https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/summaries/Chemical/Daily_oxygen_concentration/models/tmwb_inflow.json",
+      "href": "https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/summaries/Physical/Daily_Water_temperature/models/llm.gemini2.5flash.ccc.json",
       "type": "text/html",
       "title": "Link for rendered STAC item"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/summaries/Chemical/Daily_oxygen_concentration/models/tmwb_inflow.json",
+      "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/summaries/Physical/Daily_Water_temperature/models/llm.gemini2.5flash.ccc.json",
       "type": "text/html",
       "title": "Link for raw JSON file"
     }
@@ -181,26 +181,26 @@
     "1": {
       "type": "application/json",
       "title": "Model Metadata",
-      "href": "https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/tmwb_inflow.json",
-      "description": "Use `jsonlite::fromJSON()` to download the model metadata JSON file. This R code will return metadata provided during the model registration.\n      \n\n### R\n\n```{r}\n# Use code below\n\nmodel_metadata <- jsonlite::fromJSON(\"https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/tmwb_inflow.json\")\n\n"
+      "href": "https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/llm.gemini2.5flash.ccc.json",
+      "description": "Use `jsonlite::fromJSON()` to download the model metadata JSON file. This R code will return metadata provided during the model registration.\n      \n\n### R\n\n```{r}\n# Use code below\n\nmodel_metadata <- jsonlite::fromJSON(\"https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/llm.gemini2.5flash.ccc.json\")\n\n"
     },
     "2": {
       "type": "text/html",
       "title": "Link for Model Code",
-      "href": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/inflow_tmwb/tmwb_inflow.R",
+      "href": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/LLM_temperature/LLM_temp.R",
       "description": "The link to the model code provided by the model submission team"
     },
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "bvre"
+      "description": "fcre"
     },
     "4": {
       "type": "application/x-parquet",
-      "title": "Database Access for Daily oxygen_concentration",
-      "href": "s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=DO_mgL_mean/model_id=tmwb_inflow?endpoint_override=amnh1.osn.mghpcc.org",
-      "description": "Use `R` or `Python` code for remote access to the database. This code will return results for this variable and model combination.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=DO_mgL_mean/model_id=tmwb_inflow?endpoint_override=amnh1.osn.mghpcc.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n### Python\n\n```{python}# Use code below\nimport ibis\ncon = ibis.duckdbf.connect()\ncon.raw_sql(f'''\nCREATE OR REPLACE SECRET secret (\nTYPE S3,\nENDPOINT 'amnh1.osn.mghpcc.org',\nURL_STYLE 'path'\n\n''');\npath = \"s3://bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=DO_mgL_mean/model_id=tmwb_inflow\"\ncon.read_parquet(path + \"/**\")"
+      "title": "Database Access for Daily Water_temperature",
+      "href": "s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Temp_C_mean/model_id=llm.gemini2.5flash.ccc?endpoint_override=amnh1.osn.mghpcc.org",
+      "description": "Use `R` or `Python` code for remote access to the database. This code will return results for this variable and model combination.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Temp_C_mean/model_id=llm.gemini2.5flash.ccc?endpoint_override=amnh1.osn.mghpcc.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n### Python\n\n```{python}# Use code below\nimport ibis\ncon = ibis.duckdbf.connect()\ncon.raw_sql(f'''\nCREATE OR REPLACE SECRET secret (\nTYPE S3,\nENDPOINT 'amnh1.osn.mghpcc.org',\nURL_STYLE 'path'\n\n''');\npath = \"s3://bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Temp_C_mean/model_id=llm.gemini2.5flash.ccc\"\ncon.read_parquet(path + \"/**\")"
     }
   }
 }

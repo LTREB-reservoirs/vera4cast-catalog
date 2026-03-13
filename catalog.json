@@ -31,12 +31,6 @@
     {
       "rel": "child",
       "type": "application/json",
-      "title": "Inventory",
-      "href": "inventory/collection.json"
-    },
-    {
-      "rel": "child",
-      "type": "application/json",
       "title": "NOAA Forecasts",
       "href": "noaa_forecasts/collection.json"
     },
