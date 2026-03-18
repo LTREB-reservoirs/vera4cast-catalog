@@ -9,14 +9,14 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-79.8372, 37.3032],
       [-79.8159, 37.3129],
-      [-79.8357, 37.3078],
-      [-79.8372, 37.3032]
+      [-79.8357, 37.3078]
     ]
   },
   "properties": {
     "title": "monthly_mean",
-    "description": "All forecasts for the Daily_Water_temperature variable for the monthly_mean model. Information for the model is provided as follows: This model calculates a monthly mean from the historic data and assigns this as the mean prediction for any day within that month. The standard deviation of the observations for that month is given as the standard deviation of the forecast..\n                                    The model predicts this variable at the following sites: bvre, tubr, fcre.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the monthly_mean model. Information for the model is provided as follows: This model calculates a monthly mean from the historic data and assigns this as the mean prediction for any day within that month. The standard deviation of the observations for that month is given as the standard deviation of the forecast..\n                                    The model predicts this variable at the following sites: fcre, bvre, tubr.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2026-03-16T00:00:00Z",
     "updated": "2026-03-16T00:00:00Z",
     "start_datetime": "2024-02-06T00:00:00Z",
@@ -49,9 +49,9 @@
       "Temp_C_mean",
       "Daily",
       "P1D",
+      "fcre",
       "bvre",
-      "tubr",
-      "fcre"
+      "tubr"
     ],
     "table:columns": [
       {
@@ -203,7 +203,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "bvre, tubr, fcre"
+      "description": "fcre, bvre, tubr"
     },
     "4": {
       "type": "application/x-parquet",
