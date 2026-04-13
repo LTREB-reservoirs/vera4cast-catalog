@@ -9,13 +9,13 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-79.8159, 37.3129],
-      [-79.8372, 37.3032]
+      [-79.8372, 37.3032],
+      [-79.8159, 37.3129]
     ]
   },
   "properties": {
     "title": "asl.ets",
-    "description": "All summaries for the Daily_Chlorophyll-a variable for the asl.ets model. Information for the model is provided as follows: forecast::ets() function in R, fit individually at each site/depth.\n                                    The model predicts this variable at the following sites: bvre, fcre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Chlorophyll-a variable for the asl.ets model. Information for the model is provided as follows: forecast::ets() function in R, fit individually at each site/depth.\n                                    The model predicts this variable at the following sites: fcre, bvre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-09-23T00:00:00Z",
     "updated": "2025-09-24T00:00:00Z",
     "start_datetime": "2024-03-12T00:00:00Z",
@@ -48,8 +48,8 @@
       "Chla_ugL_mean",
       "Daily",
       "P1D",
-      "bvre",
-      "fcre"
+      "fcre",
+      "bvre"
     ],
     "table:columns": [
       {
@@ -196,7 +196,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "bvre, fcre"
+      "description": "fcre, bvre"
     },
     "4": {
       "type": "application/x-parquet",
