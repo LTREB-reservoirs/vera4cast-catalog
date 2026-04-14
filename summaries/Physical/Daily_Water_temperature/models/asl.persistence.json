@@ -9,13 +9,13 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-79.8372, 37.3032],
-      [-79.8159, 37.3129]
+      [-79.8159, 37.3129],
+      [-79.8372, 37.3032]
     ]
   },
   "properties": {
     "title": "asl.persistence",
-    "description": "All summaries for the Daily_Water_temperature variable for the asl.persistence model. Information for the model is provided as follows: The random walk persistence model has massive uncertainty at long horizons, but you could instead re-fit the persistence model for every forecast horizon to get a more precise forecast (i.e., not dynamic). I did this for my work at SERC, and am submitting here in case it is helpful.\n                                    The model predicts this variable at the following sites: fcre, bvre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the asl.persistence model. Information for the model is provided as follows: The random walk persistence model has massive uncertainty at long horizons, but you could instead re-fit the persistence model for every forecast horizon to get a more precise forecast (i.e., not dynamic). I did this for my work at SERC, and am submitting here in case it is helpful.\n                                    The model predicts this variable at the following sites: bvre, fcre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-09-23T00:00:00Z",
     "updated": "2025-09-24T00:00:00Z",
     "start_datetime": "2024-09-05T00:00:00Z",
@@ -48,8 +48,8 @@
       "Temp_C_mean",
       "Daily",
       "P1D",
-      "fcre",
-      "bvre"
+      "bvre",
+      "fcre"
     ],
     "table:columns": [
       {
@@ -196,7 +196,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "fcre, bvre"
+      "description": "bvre, fcre"
     },
     "4": {
       "type": "application/x-parquet",
