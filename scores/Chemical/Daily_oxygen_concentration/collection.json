@@ -26,11 +26,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/monthly_mean.json"
     },
     {
@@ -41,7 +36,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR_focal.json"
+      "href": "./models/asl.tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/climatology.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_flare_v3.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.climate.window.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "item",
@@ -51,7 +66,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/asl.persistence.json"
     },
     {
       "rel": "item",
@@ -66,27 +81,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.persistence.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_flare_v3.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/fableNNETAR_focal.json"
     },
     {
       "rel": "parent",
@@ -131,7 +131,7 @@
       "interval": [
         [
           "2023-10-14T00:00:00Z",
-          "2026-04-20T00:00:00Z"
+          "2026-04-21T00:00:00Z"
         ]
       ]
     }
