@@ -9,13 +9,13 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-79.8159, 37.3129],
-      [-79.8372, 37.3032]
+      [-79.8372, 37.3032],
+      [-79.8159, 37.3129]
     ]
   },
   "properties": {
     "title": "glm_aed_flare_v3",
-    "description": "All summaries for the Daily_oxygen_concentration variable for the glm_aed_flare_v3 model. Information for the model is provided as follows: General Lake Model with Aquatic Ecosystem Dynamics (GLM-AED) library within FLAREr version 3.0.  GLM-AED is a 1-D hydrodynamic model and FLARE adds EnKF-based data assimilation.  Temperature, oxygen, fdom, chla, and secchi depth are assimilated..\n                                    The model predicts this variable at the following sites: bvre, fcre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_oxygen_concentration variable for the glm_aed_flare_v3 model. Information for the model is provided as follows: General Lake Model with Aquatic Ecosystem Dynamics (GLM-AED) library within FLAREr version 3.0.  GLM-AED is a 1-D hydrodynamic model and FLARE adds EnKF-based data assimilation.  Temperature, oxygen, fdom, chla, and secchi depth are assimilated..\n                                    The model predicts this variable at the following sites: fcre, bvre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2026-04-25T00:00:00Z",
     "updated": "2026-04-26T00:00:00Z",
     "start_datetime": "2024-10-03T00:00:00Z",
@@ -48,8 +48,8 @@
       "DO_mgL_mean",
       "Daily",
       "P1D",
-      "bvre",
-      "fcre"
+      "fcre",
+      "bvre"
     ],
     "table:columns": [
       {
@@ -196,7 +196,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "bvre, fcre"
+      "description": "fcre, bvre"
     },
     "4": {
       "type": "application/x-parquet",
