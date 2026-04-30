@@ -15,10 +15,10 @@
   "properties": {
     "title": "tmwb_inflow",
     "description": "All summaries for the Daily_Water_temperature variable for the tmwb_inflow model. Information for the model is provided as follows: This model uses computations of water-balance components of the hydrologic cycle to predict inflow discharge and inflow temperature.\n                                    The model predicts this variable at the following sites: bvre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2026-04-26T00:00:00Z",
-    "updated": "2026-04-26T00:00:00Z",
-    "start_datetime": "2026-05-30T00:00:00Z",
-    "end_datetime": "2026-05-30T00:00:00Z",
+    "datetime": "2026-04-29T00:00:00Z",
+    "updated": "2026-04-29T00:00:00Z",
+    "start_datetime": "2026-06-02T00:00:00Z",
+    "end_datetime": "2026-06-02T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/LTREB-reservoirs/vera4cast_models/blob/main/model_code/inflow_tmwb/tmwb_inflow.R",
