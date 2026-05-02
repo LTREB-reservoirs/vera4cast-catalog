@@ -11,52 +11,47 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareSimstrat.json"
+      "href": "./models/asl.met.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/inflow_gefsClimAED.json"
+      "href": "./models/glm_aed_v1.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tmwb_inflow.json"
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR_focal.json"
+      "href": "./models/asl.persistence.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_flare_v3.json"
+      "href": "./models/flareGOTM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/llm.gemini2.5flash.ccc.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceFO.json"
+      "href": "./models/asl.ets.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/asl.met.lm.step.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
@@ -81,42 +76,47 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.persistence.json"
+      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGOTM.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
+      "href": "./models/glm_aed_flare_v3.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.climate.window.json"
+      "href": "./models/llm.gemini2.5flash.ccc.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/persistenceFO.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/flareSimstrat.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.met.lm.json"
+      "href": "./models/fableNNETAR_focal.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/inflow_gefsClimAED.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tmwb_inflow.json"
     },
     {
       "rel": "parent",
