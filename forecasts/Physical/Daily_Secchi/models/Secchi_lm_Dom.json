@@ -4,26 +4,25 @@
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
   "type": "Feature",
-  "id": "persistenceRW_Chla_ugL_mean_P1D_forecast",
-  "bbox": [-79.8372, 37.3032, -79.8159, 37.3129],
+  "id": "Secchi_lm_Dom_Secchi_m_sample_P1D_forecast",
+  "bbox": [-79.8372, 37.3032, -79.8372, 37.3032],
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-79.8159, 37.3129],
       [-79.8372, 37.3032]
     ]
   },
   "properties": {
-    "title": "persistenceRW",
-    "description": "All forecasts for the Daily_Chlorophyll-a variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: bvre, fcre.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-05-02T00:00:00Z",
+    "title": "Secchi_lm_Dom",
+    "description": "All forecasts for the Daily_Secchi variable for the Secchi_lm_Dom model. Information for the model is provided as follows: Utilized the lm fit with met variables along with water temperature to predict secchi depth from April-Nov.\n                                    The model predicts this variable at the following sites: fcre.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "datetime": "2026-05-01T00:00:00Z",
     "updated": "2026-05-02T00:00:00Z",
-    "start_datetime": "2023-10-01T00:00:00Z",
-    "end_datetime": "2026-06-05T00:00:00Z",
+    "start_datetime": "2026-06-04T00:00:00Z",
+    "end_datetime": "2026-06-04T00:00:00Z",
     "providers": [
       {
-        "url": "https://github.com/LTREB-reservoirs/vera4cast/blob/main/models/run_terrestrial_baselines.R",
-        "name": "Quinn Thomas",
+        "url": "https://github.com/dedwards2002/vera4cast_models/blob/main/R/Secchi_Dom/Secchi_LM_model_code.R",
+        "name": "Dominique Edwards",
         "roles": [
           "producer",
           "processor",
@@ -42,13 +41,12 @@
     "keywords": [
       "Forecasts",
       "vera4cast",
-      "Biological",
-      "persistenceRW",
-      "Chlorophyll-a",
-      "Chla_ugL_mean",
+      "Physical",
+      "Secchi_lm_Dom",
+      "Secchi",
+      "Secchi_m_sample",
       "Daily",
       "P1D",
-      "bvre",
       "fcre"
     ],
     "table:columns": [
@@ -145,7 +143,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "persistenceRW"
+      "title": "Secchi_lm_Dom"
     },
     {
       "rel": "root",
@@ -157,29 +155,29 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "persistenceRW"
+      "title": "Secchi_lm_Dom"
     },
     {
       "rel": "self",
-      "href": "persistenceRW.json",
+      "href": "Secchi_lm_Dom.json",
       "type": "application/json",
       "title": "Model Forecast"
     },
     {
       "rel": "item",
-      "href": "https://github.com/LTREB-reservoirs/vera4cast/blob/main/models/run_terrestrial_baselines.R",
+      "href": "https://github.com/dedwards2002/vera4cast_models/blob/main/R/Secchi_Dom/Secchi_LM_model_code.R",
       "type": "text/html",
       "title": "Link for Model Code"
     },
     {
       "rel": "item",
-      "href": "https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/forecasts/Biological/Daily_Chlorophyll-a/models/persistenceRW.json",
+      "href": "https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/forecasts/Physical/Daily_Secchi/models/Secchi_lm_Dom.json",
       "type": "text/html",
       "title": "Link for rendered STAC item"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/forecasts/Biological/Daily_Chlorophyll-a/models/persistenceRW.json",
+      "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/forecasts/Physical/Daily_Secchi/models/Secchi_lm_Dom.json",
       "type": "text/html",
       "title": "Link for raw JSON file"
     }
@@ -188,26 +186,26 @@
     "1": {
       "type": "application/json",
       "title": "Model Metadata",
-      "href": "https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/persistenceRW.json",
-      "description": "Use `jsonlite::fromJSON()` to download the model metadata JSON file. This R code will return metadata provided during the model registration.\n      \n\n### R\n\n```{r}\n# Use code below\n\nmodel_metadata <- jsonlite::fromJSON(\"https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/persistenceRW.json\")\n\n"
+      "href": "https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/Secchi_lm_Dom.json",
+      "description": "Use `jsonlite::fromJSON()` to download the model metadata JSON file. This R code will return metadata provided during the model registration.\n      \n\n### R\n\n```{r}\n# Use code below\n\nmodel_metadata <- jsonlite::fromJSON(\"https://amnh1.osn.mghpcc.org/bio230121-bucket01/vera4cast/metadata/model_id/Secchi_lm_Dom.json\")\n\n"
     },
     "2": {
       "type": "text/html",
       "title": "Link for Model Code",
-      "href": "https://github.com/LTREB-reservoirs/vera4cast/blob/main/models/run_terrestrial_baselines.R",
+      "href": "https://github.com/dedwards2002/vera4cast_models/blob/main/R/Secchi_Dom/Secchi_LM_model_code.R",
       "description": "The link to the model code provided by the model submission team"
     },
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "bvre, fcre"
+      "description": "fcre"
     },
     "4": {
       "type": "application/x-parquet",
-      "title": "Database Access for Daily Chlorophyll-a",
-      "href": "s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Chla_ugL_mean/model_id=persistenceRW?endpoint_override=amnh1.osn.mghpcc.org",
-      "description": "Use `R` or `Python` code for remote access to the database. This code will return results for this variable and model combination.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Chla_ugL_mean/model_id=persistenceRW?endpoint_override=amnh1.osn.mghpcc.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n### Python\n\n```{python}# Use code below\nimport ibis\ncon = ibis.duckdbf.connect()\ncon.raw_sql(f'''\nCREATE OR REPLACE SECRET secret (\nTYPE S3,\nENDPOINT 'amnh1.osn.mghpcc.org',\nURL_STYLE 'path'\n\n''');\npath = \"s3://bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Chla_ugL_mean/model_id=persistenceRW\"\ncon.read_parquet(path + \"/**\")"
+      "title": "Database Access for Daily Secchi",
+      "href": "s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Secchi_m_sample/model_id=Secchi_lm_Dom?endpoint_override=amnh1.osn.mghpcc.org",
+      "description": "Use `R` or `Python` code for remote access to the database. This code will return results for this variable and model combination.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Secchi_m_sample/model_id=Secchi_lm_Dom?endpoint_override=amnh1.osn.mghpcc.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n### Python\n\n```{python}# Use code below\nimport ibis\ncon = ibis.duckdbf.connect()\ncon.raw_sql(f'''\nCREATE OR REPLACE SECRET secret (\nTYPE S3,\nENDPOINT 'amnh1.osn.mghpcc.org',\nURL_STYLE 'path'\n\n''');\npath = \"s3://bio230121-bucket01/vera4cast/forecasts/bundled-summaries/project_id=vera4cast/duration=P1D/variable=Secchi_m_sample/model_id=Secchi_lm_Dom\"\ncon.read_parquet(path + \"/**\")"
     }
   }
 }
