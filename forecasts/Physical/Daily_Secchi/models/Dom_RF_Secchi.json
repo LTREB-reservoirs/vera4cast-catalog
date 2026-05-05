@@ -15,10 +15,10 @@
   "properties": {
     "title": "Dom_RF_Secchi",
     "description": "All forecasts for the Daily_Secchi variable for the Dom_RF_Secchi model. Information for the model is provided as follows: Utilized the Random Forest with met variables along with water temperature to predict secchi depth from April-Nov.\n                                    The model predicts this variable at the following sites: fcre.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-05-01T00:00:00Z",
-    "updated": "2026-05-03T00:00:00Z",
-    "start_datetime": "2026-06-04T00:00:00Z",
-    "end_datetime": "2026-06-04T00:00:00Z",
+    "datetime": "2026-05-02T00:00:00Z",
+    "updated": "2026-05-04T00:00:00Z",
+    "start_datetime": "2026-06-05T00:00:00Z",
+    "end_datetime": "2026-06-05T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/dedwards2002/vera4cast_models/blob/main/R/Secchi_Dom/Secchi_RF_Model_Code.R",
