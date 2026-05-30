@@ -15,10 +15,10 @@
   "properties": {
     "title": "Secchi_lm_Dom",
     "description": "All summaries for the Daily_Secchi variable for the Secchi_lm_Dom model. Information for the model is provided as follows: Utilized the lm fit with met variables along with water temperature to predict secchi depth from April-Nov.\n                                    The model predicts this variable at the following sites: fcre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2026-05-26T00:00:00Z",
-    "updated": "2026-05-28T00:00:00Z",
+    "datetime": "2026-05-27T00:00:00Z",
+    "updated": "2026-05-29T00:00:00Z",
     "start_datetime": "2026-05-04T00:00:00Z",
-    "end_datetime": "2026-06-29T00:00:00Z",
+    "end_datetime": "2026-06-30T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/dedwards2002/vera4cast_models/blob/main/R/Secchi_Dom/Secchi_LM_model_code.R",
