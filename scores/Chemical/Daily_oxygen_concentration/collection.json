@@ -11,7 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR_focal.json"
+      "href": "./models/asl.tbats.json"
     },
     {
       "rel": "item",
@@ -26,7 +26,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.tbats.json"
+      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
@@ -41,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
+      "href": "./models/fableNNETAR_focal.json"
     },
     {
       "rel": "item",
@@ -51,7 +51,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.persistence.json"
+      "href": "./models/historic_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
     },
     {
       "rel": "item",
@@ -71,12 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/asl.persistence.json"
     },
     {
       "rel": "item",
@@ -131,7 +131,7 @@
       "interval": [
         [
           "2023-10-14T00:00:00Z",
-          "2026-06-03T00:00:00Z"
+          "2026-06-06T00:00:00Z"
         ]
       ]
     }
