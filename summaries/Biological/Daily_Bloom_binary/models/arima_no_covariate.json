@@ -16,10 +16,10 @@
   "properties": {
     "title": "arima_no_covariate",
     "description": "All summaries for the Daily_Bloom_binary variable for the arima_no_covariate model. Information for the model is provided as follows: An ARIMA model that does not use any additional covariates.\n                                    The model predicts this variable at the following sites: fcre, bvre.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2026-08-10T00:00:00Z",
-    "updated": "2026-08-10T00:00:00Z",
-    "start_datetime": "2026-09-13T00:00:00Z",
-    "end_datetime": "2026-09-13T00:00:00Z",
+    "datetime": "2026-08-11T00:00:00Z",
+    "updated": "2026-08-11T00:00:00Z",
+    "start_datetime": "2026-09-14T00:00:00Z",
+    "end_datetime": "2026-09-14T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/LTREB-reservoirs/vera4cast/blob/main/baseline_models/run_arima_no_covariate.R",
