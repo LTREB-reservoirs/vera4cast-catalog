@@ -11,57 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.met.lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/fableARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.persistence.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/historic_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.met.lm.step.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/fableNNETAR.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
@@ -76,7 +26,27 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/asl.met.lm.step.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/monthly_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/asl.temp.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fableETS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/ETS.json"
     },
     {
       "rel": "item",
@@ -96,12 +66,42 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableETS.json"
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/asl.persistence.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fableARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/historic_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.met.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -171,7 +171,7 @@
       "interval": [
         [
           "2023-10-01T00:00:00Z",
-          "2026-09-16T00:00:00Z"
+          "2026-09-17T00:00:00Z"
         ]
       ]
     }
