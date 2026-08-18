@@ -16,12 +16,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/secchi_last3obs_mean.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/secchi_last3obs_mean.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
@@ -36,7 +36,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/asl.persistence.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Secchi_lm_Dom.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/secchi_arimax.json"
     },
     {
       "rel": "item",
@@ -56,17 +66,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/secchi_arimax.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.persistence.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Secchi_lm_Dom.json"
+      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
@@ -87,11 +92,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/asl.tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
