@@ -16,10 +16,10 @@
   "properties": {
     "title": "EDM",
     "description": "All forecasts for the Daily_Chlorophyll-a variable for the EDM model. Information for the model is provided as follows: We used the rEDM package to run the model. This package implements the 'simplex' projection method from Sugihara & May (1990), the 'S-map' algorithm from Sugihara (1994), convergent cross mapping described in Sugihara et al. (2012), and, 'multiview embedding' described in Ye & Sugihara (2016)..\n                                    The model predicts this variable at the following sites: fcre, bvre.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-08-19T00:00:00Z",
-    "updated": "2026-08-19T00:00:00Z",
+    "datetime": "2026-08-20T00:00:00Z",
+    "updated": "2026-08-20T00:00:00Z",
     "start_datetime": "2026-07-27T00:00:00Z",
-    "end_datetime": "2026-09-22T00:00:00Z",
+    "end_datetime": "2026-09-23T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/LTREB-reservoirs/vera4cast/blob/main/baseline_models/run_edm.R",

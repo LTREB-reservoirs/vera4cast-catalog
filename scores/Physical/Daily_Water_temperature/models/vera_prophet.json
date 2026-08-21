@@ -9,18 +9,18 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-79.8372, 37.3032],
+      [-79.8357, 37.3078],
       [-79.8159, 37.3129],
-      [-79.8357, 37.3078]
+      [-79.8372, 37.3032]
     ]
   },
   "properties": {
     "title": "vera_prophet",
-    "description": "All scores for the Daily_Water_temperature variable for the vera_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes seasonality effects.\n                                    The model predicts this variable at the following sites: fcre, bvre, tubr.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2026-08-18T00:00:00Z",
-    "updated": "2026-08-18T00:00:00Z",
+    "description": "All scores for the Daily_Water_temperature variable for the vera_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes seasonality effects.\n                                    The model predicts this variable at the following sites: tubr, bvre, fcre.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "datetime": "2026-08-19T00:00:00Z",
+    "updated": "2026-08-19T00:00:00Z",
     "start_datetime": "2026-07-29T00:00:00Z",
-    "end_datetime": "2026-08-18T00:00:00Z",
+    "end_datetime": "2026-08-19T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/LTREB-reservoirs/vera4cast/blob/main/baseline_models/run_prophet.R",
@@ -49,9 +49,9 @@
       "Temp_C_mean",
       "Daily",
       "P1D",
-      "fcre",
+      "tubr",
       "bvre",
-      "tubr"
+      "fcre"
     ],
     "table:columns": [
       {
@@ -213,7 +213,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "fcre, bvre, tubr"
+      "description": "tubr, bvre, fcre"
     },
     "4": {
       "type": "application/x-parquet",

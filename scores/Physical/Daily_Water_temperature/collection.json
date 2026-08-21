@@ -16,6 +16,16 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/monthly_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.met.lm.step.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/asl.tbats.json"
     },
     {
@@ -26,82 +36,37 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.met.lm.step.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/vera_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGOTM.json"
+      "href": "./models/glm_aed_flare_v3.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
+      "href": "./models/llm.gemini2.5flash.ccc.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/persistence_constantSD.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.persistence.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.met.lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/chronos2.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareSimstrat.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/inflow_gefsClimAED.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/persistenceFO.json"
     },
     {
       "rel": "item",
@@ -116,32 +81,67 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/flareSimstrat.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistence_constantSD.json"
+      "href": "./models/arima_no_covariate.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/vera_prophet.json"
+      "href": "./models/chronos2.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/llm.gemini2.5flash.ccc.json"
+      "href": "./models/inflow_gefsClimAED.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_flare_v3.json"
+      "href": "./models/ETS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceFO.json"
+      "href": "./models/asl.persistence.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.met.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareGOTM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/historic_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "parent",
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2023-09-21T00:00:00Z",
-          "2026-08-18T00:00:00Z"
+          "2026-08-19T00:00:00Z"
         ]
       ]
     }
