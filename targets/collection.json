@@ -35,8 +35,8 @@
     },
     {
       "rel": "describedby",
-      "href": {},
-      "title": {},
+      "href": "https://www.ltreb-reservoirs.org/vera4cast/",
+      "title": "VERA Forecasting Challenge Documentation",
       "type": "text/html"
     }
   ],

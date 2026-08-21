@@ -107,37 +107,37 @@
     {
       "name": "mean",
       "type": "double",
-      "description": {}
+      "description": "mean forecast prediction"
     },
     {
       "name": "median",
       "type": "double",
-      "description": {}
+      "description": "median forecast prediction"
     },
     {
       "name": "sd",
       "type": "double",
-      "description": {}
+      "description": "standard deviation forecasts"
     },
     {
       "name": "quantile97.5",
       "type": "double",
-      "description": {}
+      "description": "upper 97.5 percentile value of forecast"
     },
     {
       "name": "quantile02.5",
       "type": "double",
-      "description": {}
+      "description": "upper 2.5 percentile value of forecast"
     },
     {
       "name": "quantile90",
       "type": "double",
-      "description": {}
+      "description": "upper 90 percentile value of forecast"
     },
     {
       "name": "quantile10",
       "type": "double",
-      "description": {}
+      "description": "upper 10 percentile value of forecast"
     },
     {
       "name": "project_id",

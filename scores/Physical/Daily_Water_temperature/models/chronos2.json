@@ -9,14 +9,14 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-79.8372, 37.3032],
       [-79.8159, 37.3129],
-      [-79.8357, 37.3078],
-      [-79.8372, 37.3032]
+      [-79.8357, 37.3078]
     ]
   },
   "properties": {
     "title": "chronos2",
-    "description": "All scores for the Daily_Water_temperature variable for the chronos2 model. Information for the model is provided as follows: The Chronos-2 model is a machine learning model developed by Amazon which includes universal forecast capabilities, in-context learning, and probabilistic forecasting . We use the Python \"chronos-forecasting\" package to run our model..\n                                    The model predicts this variable at the following sites: bvre, tubr, fcre.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the chronos2 model. Information for the model is provided as follows: The Chronos-2 model is a machine learning model developed by Amazon which includes universal forecast capabilities, in-context learning, and probabilistic forecasting . We use the Python \"chronos-forecasting\" package to run our model..\n                                    The model predicts this variable at the following sites: fcre, bvre, tubr.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2026-08-19T00:00:00Z",
     "updated": "2026-08-19T00:00:00Z",
     "start_datetime": "2026-07-28T00:00:00Z",
@@ -49,9 +49,9 @@
       "Temp_C_mean",
       "Daily",
       "P1D",
+      "fcre",
       "bvre",
-      "tubr",
-      "fcre"
+      "tubr"
     ],
     "table:columns": [
       {
@@ -213,7 +213,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/LTREB-reservoirs/vera4cast/main/vera4cast_field_site_metadata.csv",
-      "description": "bvre, tubr, fcre"
+      "description": "fcre, bvre, tubr"
     },
     "4": {
       "type": "application/x-parquet",
