@@ -16,12 +16,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/vera_prophet.json"
+      "href": "./models/persistence_constantSD.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistence_constantSD.json"
+      "href": "./models/vera_prophet.json"
     },
     {
       "rel": "item",
@@ -41,52 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareGOTM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.met.lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.persistence.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/historic_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/flareSimstrat.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ETS.json"
     },
     {
       "rel": "item",
@@ -101,17 +56,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/chronos2.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/fableNNETAR_focal.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/ETS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/arima_no_covariate.json"
     },
     {
       "rel": "item",
@@ -126,7 +86,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/asl.auto.arima.json"
     },
     {
       "rel": "item",
@@ -141,12 +101,52 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/monthly_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/asl.met.lm.step.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.auto.arima.json"
+      "href": "./models/asl.climate.window.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.met.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareGOTM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.persistence.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "parent",
@@ -191,7 +191,7 @@
       "interval": [
         [
           "2023-09-21T00:00:00Z",
-          "2026-10-04T00:00:00Z"
+          "2026-10-05T00:00:00Z"
         ]
       ]
     }
