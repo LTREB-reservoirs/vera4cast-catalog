@@ -11,6 +11,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/vera_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -26,12 +31,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/vera_prophet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
+      "href": "./models/chronos2.json"
     },
     {
       "rel": "item",
@@ -41,42 +41,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/arima_no_covariate.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/EDM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/chronos2.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.met.lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.persistence.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/fableARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
@@ -91,7 +66,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR.json"
+      "href": "./models/asl.met.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.persistence.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.climate.window.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -101,12 +96,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.tbats.json"
+      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
+      "href": "./models/fableNNETAR.json"
     },
     {
       "rel": "item",
@@ -117,6 +112,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/LogReg_Bloom.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.tbats.json"
     },
     {
       "rel": "item",
@@ -166,7 +166,7 @@
       "interval": [
         [
           "2023-10-01T00:00:00Z",
-          "2026-10-17T00:00:00Z"
+          "2026-10-29T00:00:00Z"
         ]
       ]
     }
