@@ -11,37 +11,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LogReg_Bloom.json"
+      "href": "./models/arima_no_covariate.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
+      "href": "./models/fableETS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR.json"
+      "href": "./models/EDM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.met.lm.step.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.auto.arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/chronos2.json"
     },
     {
       "rel": "item",
@@ -66,27 +51,47 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableETS.json"
+      "href": "./models/asl.met.lm.step.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/chronos2.json"
+      "href": "./models/fableNNETAR.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
+      "href": "./models/LogReg_Bloom.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/monthly_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.auto.arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.met.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.persistence.json"
     },
     {
       "rel": "item",
@@ -111,12 +116,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.met.lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.persistence.json"
+      "href": "./models/asl.ets.json"
     },
     {
       "rel": "item",
@@ -166,7 +166,7 @@
       "interval": [
         [
           "2023-10-01T00:00:00Z",
-          "2026-09-29T00:00:00Z"
+          "2026-10-01T00:00:00Z"
         ]
       ]
     }
