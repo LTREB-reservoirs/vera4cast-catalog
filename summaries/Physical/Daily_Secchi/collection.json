@@ -61,26 +61,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.auto.arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/fableNNETAR.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/monthly_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/Dom_RF_Secchi.json"
     },
     {
@@ -91,17 +71,32 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/fableNNETAR.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/monthly_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.auto.arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/arima_no_covariate.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/EDM.json"
     },
     {
       "rel": "item",
@@ -116,12 +111,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/ETS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/vera_prophet.json"
+      "href": "./models/secchi_last3obs_mean.json"
     },
     {
       "rel": "item",
@@ -131,7 +131,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/secchi_last3obs_mean.json"
+      "href": "./models/vera_prophet.json"
     },
     {
       "rel": "item",
@@ -181,7 +181,7 @@
       "interval": [
         [
           "2023-10-17T00:00:00Z",
-          "2026-11-23T00:00:00Z"
+          "2026-11-24T00:00:00Z"
         ]
       ]
     }
