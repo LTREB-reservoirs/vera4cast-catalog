@@ -11,12 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "item",
@@ -26,22 +21,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/secchi_arimax.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/asl.persistence.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/asl.ets.json"
     },
     {
       "rel": "item",
@@ -51,12 +36,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR.json"
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Dom_RF_Secchi.json"
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/secchi_arimax.json"
     },
     {
       "rel": "item",
@@ -71,12 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.met.lm.step.json"
+      "href": "./models/Dom_RF_Secchi.json"
     },
     {
       "rel": "item",
@@ -86,22 +71,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR_focal.json"
+      "href": "./models/fableNNETAR.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
+      "href": "./models/asl.met.lm.step.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
@@ -111,7 +91,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/secchi_last3obs_mean.json"
+      "href": "./models/ETS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/arima_no_covariate.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fableNNETAR_focal.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/EDM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
@@ -121,17 +121,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistence_constantSD.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/vera_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/secchi_last3obs_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistence_constantSD.json"
     },
     {
       "rel": "parent",
