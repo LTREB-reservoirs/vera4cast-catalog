@@ -11,22 +11,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/Secchi_lm_Dom.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.persistence.json"
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/secchi_arimax.json"
     },
     {
       "rel": "item",
@@ -41,32 +36,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Secchi_lm_Dom.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/asl.met.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/asl.persistence.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/secchi_arimax.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/Dom_RF_Secchi.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.auto.arima.json"
     },
     {
       "rel": "item",
@@ -81,6 +71,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/asl.auto.arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/asl.temp.lm.json"
     },
     {
@@ -91,17 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/fableNNETAR_focal.json"
     },
     {
       "rel": "item",
@@ -111,7 +101,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR_focal.json"
+      "href": "./models/EDM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/ETS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/arima_no_covariate.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_flare_v3.json"
     },
     {
       "rel": "item",
@@ -132,11 +137,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/vera_prophet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/glm_aed_flare_v3.json"
     },
     {
       "rel": "parent",
@@ -181,7 +181,7 @@
       "interval": [
         [
           "2023-10-17T00:00:00Z",
-          "2026-12-03T00:00:00Z"
+          "2026-12-05T00:00:00Z"
         ]
       ]
     }
