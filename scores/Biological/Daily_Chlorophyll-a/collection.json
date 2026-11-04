@@ -26,12 +26,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/fableNNETAR.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR.json"
+      "href": "./models/asl.tbats.json"
     },
     {
       "rel": "item",
@@ -41,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.tbats.json"
+      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
@@ -56,12 +56,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -71,27 +66,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSTM.json"
+      "href": "./models/fableARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
@@ -111,6 +106,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/LSTM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/chronos2.json"
     },
     {
@@ -126,12 +126,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableETS.json"
+      "href": "./models/ETS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/fableETS.json"
     },
     {
       "rel": "parent",
@@ -176,7 +176,7 @@
       "interval": [
         [
           "2023-10-01T00:00:00Z",
-          "2026-11-01T00:00:00Z"
+          "2026-11-02T00:00:00Z"
         ]
       ]
     }
