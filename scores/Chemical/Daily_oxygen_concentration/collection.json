@@ -21,12 +21,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/asl.tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.tbats.json"
+      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
@@ -41,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
@@ -51,12 +51,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.climate.window.json"
+      "href": "./models/asl.ets.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "item",
@@ -71,12 +71,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/historic_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/vera_prophet.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -86,22 +81,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistence_constantSD.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/vera_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/arima_no_covariate.json"
+      "href": "./models/climatology.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/EDM.json"
     },
     {
       "rel": "item",
@@ -112,6 +107,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/ETS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/arima_no_covariate.json"
     },
     {
       "rel": "item",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2023-10-14T00:00:00Z",
-          "2026-11-07T00:00:00Z"
+          "2026-11-08T00:00:00Z"
         ]
       ]
     }
