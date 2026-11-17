@@ -143,7 +143,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "glm_aed_v1"
+      "title": "Daily_oxygen_concentration"
     },
     {
       "rel": "root",
@@ -155,7 +155,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "glm_aed_v1"
+      "title": "Daily_oxygen_concentration"
     },
     {
       "rel": "self",

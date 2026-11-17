@@ -153,7 +153,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "LSTM"
+      "title": "Daily_Chlorophyll-a"
     },
     {
       "rel": "root",
@@ -165,7 +165,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "LSTM"
+      "title": "Daily_Chlorophyll-a"
     },
     {
       "rel": "self",

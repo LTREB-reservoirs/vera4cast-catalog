@@ -140,7 +140,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "asl.met.lm"
+      "title": "Daily_oxygen_concentration"
     },
     {
       "rel": "root",
@@ -152,7 +152,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "asl.met.lm"
+      "title": "Daily_oxygen_concentration"
     },
     {
       "rel": "self",

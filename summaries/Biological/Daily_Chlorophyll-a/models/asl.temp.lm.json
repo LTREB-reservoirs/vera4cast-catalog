@@ -140,7 +140,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "asl.temp.lm"
+      "title": "Daily_Chlorophyll-a"
     },
     {
       "rel": "root",
@@ -152,7 +152,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "asl.temp.lm"
+      "title": "Daily_Chlorophyll-a"
     },
     {
       "rel": "self",

@@ -143,7 +143,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "llm.gemini2.5flash.ccc"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -155,7 +155,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "llm.gemini2.5flash.ccc"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

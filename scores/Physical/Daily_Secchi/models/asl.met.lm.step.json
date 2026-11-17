@@ -155,7 +155,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "asl.met.lm.step"
+      "title": "Daily_Secchi"
     },
     {
       "rel": "root",
@@ -167,7 +167,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "asl.met.lm.step"
+      "title": "Daily_Secchi"
     },
     {
       "rel": "self",

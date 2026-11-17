@@ -153,7 +153,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "glm_aed_flare_v3"
+      "title": "Daily_Bloom_binary"
     },
     {
       "rel": "root",
@@ -165,7 +165,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "glm_aed_flare_v3"
+      "title": "Daily_Bloom_binary"
     },
     {
       "rel": "self",

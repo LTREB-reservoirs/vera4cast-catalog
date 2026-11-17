@@ -11,17 +11,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/asl.auto.arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/fableNNETAR.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/monthly_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.auto.arima.json"
     },
     {
       "rel": "item",
@@ -46,22 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/historic_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -76,6 +61,16 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/fableARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/asl.climate.window.json"
     },
     {
@@ -86,12 +81,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_flare_v3.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/LSTM.json"
+      "href": "./models/historic_mean.json"
     },
     {
       "rel": "item",
@@ -101,7 +91,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistence_constantSD.json"
+      "href": "./models/glm_aed_flare_v3.json"
     },
     {
       "rel": "item",
@@ -111,12 +101,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/LSTM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistence_constantSD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/fableETS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/ETS.json"
     },
     {
       "rel": "item",
@@ -126,12 +126,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/chronos2.json"
+      "href": "./models/EDM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ETS.json"
+      "href": "./models/chronos2.json"
     },
     {
       "rel": "parent",
@@ -176,7 +176,7 @@
       "interval": [
         [
           "2023-10-01T00:00:00Z",
-          "2026-12-21T00:00:00Z"
+          "2026-12-22T00:00:00Z"
         ]
       ]
     }
