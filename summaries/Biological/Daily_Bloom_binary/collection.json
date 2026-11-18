@@ -31,7 +31,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/chronos2.json"
     },
     {
       "rel": "item",
@@ -41,12 +41,27 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/EDM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/arima_no_covariate.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/chronos2.json"
+      "href": "./models/asl.temp.lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fableNNETAR.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/LogReg_Bloom.json"
     },
     {
       "rel": "item",
@@ -61,17 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/monthly_mean.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/LogReg_Bloom.json"
     },
     {
       "rel": "item",
@@ -81,32 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/fableARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/asl.ets.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/asl.climate.window.json"
+      "href": "./models/fableARIMA.json"
     },
     {
       "rel": "item",
@@ -121,7 +106,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/asl.climate.window.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/glm_aed_v1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/historic_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "parent",
