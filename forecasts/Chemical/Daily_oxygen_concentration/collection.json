@@ -21,7 +21,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
+      "href": "./models/asl.tbats.json"
     },
     {
       "rel": "item",
@@ -31,12 +31,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/monthly_mean.json"
+      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.tbats.json"
+      "href": "./models/monthly_mean.json"
     },
     {
       "rel": "item",
@@ -51,12 +51,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/glm_aed_v1.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/glm_aed_v1.json"
+      "href": "./models/historic_mean.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -71,7 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/historic_mean.json"
+      "href": "./models/persistence_constantSD.json"
     },
     {
       "rel": "item",
@@ -91,11 +96,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistence_constantSD.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/EDM.json"
     },
     {
@@ -106,7 +106,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/chronos2.json"
+      "href": "./models/tmwb_inflow.json"
     },
     {
       "rel": "item",
@@ -121,7 +121,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tmwb_inflow.json"
+      "href": "./models/chronos2.json"
     },
     {
       "rel": "parent",
@@ -166,7 +166,7 @@
       "interval": [
         [
           "2023-10-14T00:00:00Z",
-          "2026-12-27T00:00:00Z"
+          "2026-12-30T00:00:00Z"
         ]
       ]
     }
