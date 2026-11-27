@@ -16,7 +16,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/chronos2.json"
+      "href": "./models/fableNNETAR_focal.json"
     },
     {
       "rel": "item",
@@ -26,12 +26,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EDM.json"
+      "href": "./models/inflow_gefsClimAED.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fableNNETAR_focal.json"
+      "href": "./models/chronos2.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/EDM.json"
     },
     {
       "rel": "item",
@@ -41,22 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/inflow_gefsClimAED.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/llm.gemini2.5flash.ccc.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/vera_prophet.json"
     },
     {
       "rel": "item",
@@ -71,17 +61,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/vera_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/llm.gemini2.5flash.ccc.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/persistenceFO.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.climate.window.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/asl.ets.json"
     },
     {
       "rel": "item",
@@ -101,7 +96,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.ets.json"
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/asl.climate.window.json"
     },
     {
       "rel": "item",
@@ -116,12 +116,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.temp.lm.json"
+      "href": "./models/asl.auto.arima.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/asl.auto.arima.json"
+      "href": "./models/asl.temp.lm.json"
     },
     {
       "rel": "item",
